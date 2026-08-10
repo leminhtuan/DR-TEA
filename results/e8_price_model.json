@@ -1,0 +1,10 @@
+{
+  "n_historical_prices": 3213,
+  "price_min_usd": 0.021321,
+  "price_max_usd": 2.965216,
+  "price_median_usd": 0.34967,
+  "log_return_mu": -0.000753,
+  "log_return_sigma": 0.049606,
+  "mc_samples": 10000,
+  "seed": 42
+}

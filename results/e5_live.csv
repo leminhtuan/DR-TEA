@@ -1,0 +1,4 @@
+baseline,monthly_cost_usd,verify_latency_us,tef_s,public_verifiable,omission_detectable,mode
+B1 Centralized log,0.0,0.0575,N/A,False,False,benchmark
+B2 Per-event pilot,11126.35,N/A,105.21,True,True,live-params+dry-run
+B3 DR-TEA batched,6.7605,6.249,100.98,True,True,live-params+dry-run

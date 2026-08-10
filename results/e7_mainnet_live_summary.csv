@@ -1,0 +1,13 @@
+metric,value
+n_batches,30
+batch_size,1681
+mode,mainnet-live
+ada_usd_rate,0.1991570000
+mean_fee_ada,0.175562
+total_fee_ada,5.266870
+median_confirm_s,18.4
+p95_confirm_s,42.3
+total_cost_usd,1.0489
+mean_cost_per_batch_usd,0.0350
+n_reorgs,0
+fallback_triggered,False

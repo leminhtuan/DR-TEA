@@ -1,0 +1,708 @@
+{
+  "summary": {
+    "experiment": "E7",
+    "mode": "mainnet-live-preflight",
+    "n_batches": 30,
+    "batch_size": 1681,
+    "seed": 42,
+    "total_events_represented": 50430,
+    "genesis_prev_root": "0000000000000000000000000000000000000000000000000000000000000000",
+    "final_batch_root": "93885fb6ccb19fcf24bab252d4b327f394f6775f52fc80a47d30842111afe560",
+    "mean_tx_size_bytes": 469.7,
+    "mean_fee_ada_per_batch": 0.176046,
+    "total_estimated_fee_lovelace": 5281390,
+    "total_estimated_fee_ada": 5.28139
+  },
+  "batches": [
+    {
+      "batch_id": 0,
+      "n_events": 1681,
+      "prev_root_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "root_hex": "6860e20e18c2ca15c0c4c8e15c50fe6655f45e05a98449108bb2386dd80b1b48",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:0",
+            "root:6860e20e18c2ca15c0c4c8e15c50fe66",
+            "root_b:55f45e05a98449108bb2386dd80b1b48",
+            "prev:00000000000000000000000000000000",
+            "prev_b:00000000000000000000000000000000"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "47ea9487d51941e3fbd282c666045ca04f0f33acc4a06a7a76f234757922fa5c",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 1,
+      "n_events": 1681,
+      "prev_root_hex": "6860e20e18c2ca15c0c4c8e15c50fe6655f45e05a98449108bb2386dd80b1b48",
+      "root_hex": "d631f744e4cc63aa9848b44d3213a5fa81ec602cfa687dcc7b68b3d459003dbb",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:1",
+            "root:d631f744e4cc63aa9848b44d3213a5fa",
+            "root_b:81ec602cfa687dcc7b68b3d459003dbb",
+            "prev:6860e20e18c2ca15c0c4c8e15c50fe66",
+            "prev_b:55f45e05a98449108bb2386dd80b1b48"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "24c0c5219a37f6c52afbc43ee61b6f71402bada0915adbc26422ea890445643c",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 2,
+      "n_events": 1681,
+      "prev_root_hex": "d631f744e4cc63aa9848b44d3213a5fa81ec602cfa687dcc7b68b3d459003dbb",
+      "root_hex": "50ca5df63bba9169f2d7299692eaf130f97154091707d974b399c806fe7af2ae",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:2",
+            "root:50ca5df63bba9169f2d7299692eaf130",
+            "root_b:f97154091707d974b399c806fe7af2ae",
+            "prev:d631f744e4cc63aa9848b44d3213a5fa",
+            "prev_b:81ec602cfa687dcc7b68b3d459003dbb"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "5cc811f0626ab2810ffa4b99e3e636c76ab8b395de6016a7077543dc41a32c78",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 3,
+      "n_events": 1681,
+      "prev_root_hex": "50ca5df63bba9169f2d7299692eaf130f97154091707d974b399c806fe7af2ae",
+      "root_hex": "1fe708cc3da7640b3108bcbc2b4662d71edb70d3a4a82a3e0de8abfde1947b3a",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:3",
+            "root:1fe708cc3da7640b3108bcbc2b4662d7",
+            "root_b:1edb70d3a4a82a3e0de8abfde1947b3a",
+            "prev:50ca5df63bba9169f2d7299692eaf130",
+            "prev_b:f97154091707d974b399c806fe7af2ae"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "6e322080def0034fbe05aa71c489c8d4c44af29df180e3ba5339577bab868dfa",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 4,
+      "n_events": 1681,
+      "prev_root_hex": "1fe708cc3da7640b3108bcbc2b4662d71edb70d3a4a82a3e0de8abfde1947b3a",
+      "root_hex": "c5b29224ca070cf22cd08d727ca4c8985fd3fdb549f95b05d5ac0f0becad4e42",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:4",
+            "root:c5b29224ca070cf22cd08d727ca4c898",
+            "root_b:5fd3fdb549f95b05d5ac0f0becad4e42",
+            "prev:1fe708cc3da7640b3108bcbc2b4662d7",
+            "prev_b:1edb70d3a4a82a3e0de8abfde1947b3a"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "af81f57dc34839b0a7ffd7efe1afe5cd479bf2b238d6106dc29aad136d12bd12",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 5,
+      "n_events": 1681,
+      "prev_root_hex": "c5b29224ca070cf22cd08d727ca4c8985fd3fdb549f95b05d5ac0f0becad4e42",
+      "root_hex": "7e9ae52de299a43d8e957b6431f3398e35c6f954a64a2f99905a2ca009c4d63c",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:5",
+            "root:7e9ae52de299a43d8e957b6431f3398e",
+            "root_b:35c6f954a64a2f99905a2ca009c4d63c",
+            "prev:c5b29224ca070cf22cd08d727ca4c898",
+            "prev_b:5fd3fdb549f95b05d5ac0f0becad4e42"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "cbb5d25d276213ce5926629358e824216b0ddad32e28057a62243ca1d52e7940",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 6,
+      "n_events": 1681,
+      "prev_root_hex": "7e9ae52de299a43d8e957b6431f3398e35c6f954a64a2f99905a2ca009c4d63c",
+      "root_hex": "14e09ce2c7d91412e76cd7998576c28ca449298548dced994fac4097c9945d2b",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:6",
+            "root:14e09ce2c7d91412e76cd7998576c28c",
+            "root_b:a449298548dced994fac4097c9945d2b",
+            "prev:7e9ae52de299a43d8e957b6431f3398e",
+            "prev_b:35c6f954a64a2f99905a2ca009c4d63c"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "6ad52d1e6821eb53436653281aaaabb4b7920b06ab7b4aea4d78d4c5dbef4239",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 7,
+      "n_events": 1681,
+      "prev_root_hex": "14e09ce2c7d91412e76cd7998576c28ca449298548dced994fac4097c9945d2b",
+      "root_hex": "f9208962833865fcb6ebcfa497c7ef525800885542d19f6608659a93ef8caa06",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:7",
+            "root:f9208962833865fcb6ebcfa497c7ef52",
+            "root_b:5800885542d19f6608659a93ef8caa06",
+            "prev:14e09ce2c7d91412e76cd7998576c28c",
+            "prev_b:a449298548dced994fac4097c9945d2b"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "7c58153f475f2aea36cd06070978864e8c37a84303e07533192b5b5edf117a8c",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 8,
+      "n_events": 1681,
+      "prev_root_hex": "f9208962833865fcb6ebcfa497c7ef525800885542d19f6608659a93ef8caa06",
+      "root_hex": "9e820c93bbdd1aecf8e9704b6f11e71d253cc2c576c36e00388c10eb08971e3d",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:8",
+            "root:9e820c93bbdd1aecf8e9704b6f11e71d",
+            "root_b:253cc2c576c36e00388c10eb08971e3d",
+            "prev:f9208962833865fcb6ebcfa497c7ef52",
+            "prev_b:5800885542d19f6608659a93ef8caa06"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "e8a64d537a73d6683d3844c5c21525eda03b256db7f3be9ac8b60666d5419cda",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 9,
+      "n_events": 1681,
+      "prev_root_hex": "9e820c93bbdd1aecf8e9704b6f11e71d253cc2c576c36e00388c10eb08971e3d",
+      "root_hex": "03307bbec0c02dc12fd0a30236e5055f7369db5b38076a7537a7b68bb5152d8a",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:9",
+            "root:03307bbec0c02dc12fd0a30236e5055f",
+            "root_b:7369db5b38076a7537a7b68bb5152d8a",
+            "prev:9e820c93bbdd1aecf8e9704b6f11e71d",
+            "prev_b:253cc2c576c36e00388c10eb08971e3d"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "0f911d865d1f4877426a83861f35ef034474b43e0150e75d726e57489bc97428",
+      "estimated_tx_size_bytes": 469,
+      "estimated_fee_lovelace": 176017,
+      "estimated_fee_ada": 0.176017,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 10,
+      "n_events": 1681,
+      "prev_root_hex": "03307bbec0c02dc12fd0a30236e5055f7369db5b38076a7537a7b68bb5152d8a",
+      "root_hex": "aae632cb6b895297425d118b07f2e47f61333dc4f93bd1b7c20f7cb3b14f73d7",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:10",
+            "root:aae632cb6b895297425d118b07f2e47f",
+            "root_b:61333dc4f93bd1b7c20f7cb3b14f73d7",
+            "prev:03307bbec0c02dc12fd0a30236e5055f",
+            "prev_b:7369db5b38076a7537a7b68bb5152d8a"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "1391b1b291f546c2d90a1f77e09ff93fcff0234f01690d032f13746538d8b3e3",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 11,
+      "n_events": 1681,
+      "prev_root_hex": "aae632cb6b895297425d118b07f2e47f61333dc4f93bd1b7c20f7cb3b14f73d7",
+      "root_hex": "3539b51fdb0243e31f82f7c3b6025430f493f22f3fb4a68e4a279f80bd65cdad",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:11",
+            "root:3539b51fdb0243e31f82f7c3b6025430",
+            "root_b:f493f22f3fb4a68e4a279f80bd65cdad",
+            "prev:aae632cb6b895297425d118b07f2e47f",
+            "prev_b:61333dc4f93bd1b7c20f7cb3b14f73d7"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "d5a861cdda1107c13f61a9ca5b5bf5d9412d8c3ae7585b5cee1cbe42639be5f6",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 12,
+      "n_events": 1681,
+      "prev_root_hex": "3539b51fdb0243e31f82f7c3b6025430f493f22f3fb4a68e4a279f80bd65cdad",
+      "root_hex": "48596f2b25d28c7a757f0723ebc9ad61c42c3b412cdcf4aa3cf4d67153756ca4",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:12",
+            "root:48596f2b25d28c7a757f0723ebc9ad61",
+            "root_b:c42c3b412cdcf4aa3cf4d67153756ca4",
+            "prev:3539b51fdb0243e31f82f7c3b6025430",
+            "prev_b:f493f22f3fb4a68e4a279f80bd65cdad"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "22242a3e8e1e64d06e22908b9d7dc213a90a09f2678846a02c017856666089b0",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 13,
+      "n_events": 1681,
+      "prev_root_hex": "48596f2b25d28c7a757f0723ebc9ad61c42c3b412cdcf4aa3cf4d67153756ca4",
+      "root_hex": "b3a4c92c1aaea51f68710057d03edd166ba3d023a9d19d1572ed1d3834604b2b",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:13",
+            "root:b3a4c92c1aaea51f68710057d03edd16",
+            "root_b:6ba3d023a9d19d1572ed1d3834604b2b",
+            "prev:48596f2b25d28c7a757f0723ebc9ad61",
+            "prev_b:c42c3b412cdcf4aa3cf4d67153756ca4"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "92e5cfea409af8ba9c00386053c9e1363b84fffc0fdc254888484b54cb4ae9bd",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 14,
+      "n_events": 1681,
+      "prev_root_hex": "b3a4c92c1aaea51f68710057d03edd166ba3d023a9d19d1572ed1d3834604b2b",
+      "root_hex": "1cc777aba20ac33a9c689adf9f0220fe8b6b952337dc98732ce690db9af34e2c",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:14",
+            "root:1cc777aba20ac33a9c689adf9f0220fe",
+            "root_b:8b6b952337dc98732ce690db9af34e2c",
+            "prev:b3a4c92c1aaea51f68710057d03edd16",
+            "prev_b:6ba3d023a9d19d1572ed1d3834604b2b"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "49d6cc1b3932d8b44e5d8cadbdcd0e220f0adaa2565dfad7800a027c89b3270c",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 15,
+      "n_events": 1681,
+      "prev_root_hex": "1cc777aba20ac33a9c689adf9f0220fe8b6b952337dc98732ce690db9af34e2c",
+      "root_hex": "a8b587684fdfd030ed59983eb1dfcb98c31a2a1422144a9fcdd5b4c60152bc44",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:15",
+            "root:a8b587684fdfd030ed59983eb1dfcb98",
+            "root_b:c31a2a1422144a9fcdd5b4c60152bc44",
+            "prev:1cc777aba20ac33a9c689adf9f0220fe",
+            "prev_b:8b6b952337dc98732ce690db9af34e2c"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "e3553a1153a1f487ef51de1acb1197c5e4315139024fff624e63a459f351a0d2",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 16,
+      "n_events": 1681,
+      "prev_root_hex": "a8b587684fdfd030ed59983eb1dfcb98c31a2a1422144a9fcdd5b4c60152bc44",
+      "root_hex": "6c76ef9bb87fa19fa8bba12ee65fda3c56a623ee1c21bfc90a74cb1ac8178b98",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:16",
+            "root:6c76ef9bb87fa19fa8bba12ee65fda3c",
+            "root_b:56a623ee1c21bfc90a74cb1ac8178b98",
+            "prev:a8b587684fdfd030ed59983eb1dfcb98",
+            "prev_b:c31a2a1422144a9fcdd5b4c60152bc44"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "e28dc036a4d245db842753569c748b34102e05a230bb5f38fe900b82e656f810",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 17,
+      "n_events": 1681,
+      "prev_root_hex": "6c76ef9bb87fa19fa8bba12ee65fda3c56a623ee1c21bfc90a74cb1ac8178b98",
+      "root_hex": "4e688a88fbfa149d4aa4b61b46ff5a96b8e0eb875cf575d9803e5c8ab45e212c",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:17",
+            "root:4e688a88fbfa149d4aa4b61b46ff5a96",
+            "root_b:b8e0eb875cf575d9803e5c8ab45e212c",
+            "prev:6c76ef9bb87fa19fa8bba12ee65fda3c",
+            "prev_b:56a623ee1c21bfc90a74cb1ac8178b98"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "d4b338940e94486745c578ed2e9478e331edfffc7abe080649e14333f490a0a2",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 18,
+      "n_events": 1681,
+      "prev_root_hex": "4e688a88fbfa149d4aa4b61b46ff5a96b8e0eb875cf575d9803e5c8ab45e212c",
+      "root_hex": "4283fc0f4bb02c194459ce2c0ce66d12ca2ccb4c000d740f8186aebb3783f14d",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:18",
+            "root:4283fc0f4bb02c194459ce2c0ce66d12",
+            "root_b:ca2ccb4c000d740f8186aebb3783f14d",
+            "prev:4e688a88fbfa149d4aa4b61b46ff5a96",
+            "prev_b:b8e0eb875cf575d9803e5c8ab45e212c"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "173ae546b5c9b0af379cc5bd08833348766ba0bff1fa188c23879878f8845f91",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 19,
+      "n_events": 1681,
+      "prev_root_hex": "4283fc0f4bb02c194459ce2c0ce66d12ca2ccb4c000d740f8186aebb3783f14d",
+      "root_hex": "ae9c9155d32fda08595fdf753f049c542f4970f3852f0037724689008c253509",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:19",
+            "root:ae9c9155d32fda08595fdf753f049c54",
+            "root_b:2f4970f3852f0037724689008c253509",
+            "prev:4283fc0f4bb02c194459ce2c0ce66d12",
+            "prev_b:ca2ccb4c000d740f8186aebb3783f14d"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "d303de52e75a14c3fc5c03d8120e0b5f6c6dd1936291868cba4f89de61fbb7f8",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 20,
+      "n_events": 1681,
+      "prev_root_hex": "ae9c9155d32fda08595fdf753f049c542f4970f3852f0037724689008c253509",
+      "root_hex": "6517b67acf2083badea8579f244c78d13538bf835de9a9aa59b5cfa6f817f618",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:20",
+            "root:6517b67acf2083badea8579f244c78d1",
+            "root_b:3538bf835de9a9aa59b5cfa6f817f618",
+            "prev:ae9c9155d32fda08595fdf753f049c54",
+            "prev_b:2f4970f3852f0037724689008c253509"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "3081749456cc772ca90ec0cfbe126276c23f9e2aeafce6c38bc32e99571afa33",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 21,
+      "n_events": 1681,
+      "prev_root_hex": "6517b67acf2083badea8579f244c78d13538bf835de9a9aa59b5cfa6f817f618",
+      "root_hex": "9b93f1acdff38eeff4f311f64ac9f18268cce7b0c51ddd754a6a4eb61d7c573f",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:21",
+            "root:9b93f1acdff38eeff4f311f64ac9f182",
+            "root_b:68cce7b0c51ddd754a6a4eb61d7c573f",
+            "prev:6517b67acf2083badea8579f244c78d1",
+            "prev_b:3538bf835de9a9aa59b5cfa6f817f618"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "8f61735ef0233c65bcde003d1cdcf3847a26249038b28b832ab4e975ae127f46",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 22,
+      "n_events": 1681,
+      "prev_root_hex": "9b93f1acdff38eeff4f311f64ac9f18268cce7b0c51ddd754a6a4eb61d7c573f",
+      "root_hex": "9a354918964d8f752a1e754e2a285ffc1b5ef10962c0f4115a9e24cbc5acc7a4",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:22",
+            "root:9a354918964d8f752a1e754e2a285ffc",
+            "root_b:1b5ef10962c0f4115a9e24cbc5acc7a4",
+            "prev:9b93f1acdff38eeff4f311f64ac9f182",
+            "prev_b:68cce7b0c51ddd754a6a4eb61d7c573f"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "2537ae89ac93ae2aa22e84d990a47faf04258dfa8a5a812259beda3e6feb4179",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 23,
+      "n_events": 1681,
+      "prev_root_hex": "9a354918964d8f752a1e754e2a285ffc1b5ef10962c0f4115a9e24cbc5acc7a4",
+      "root_hex": "4753d15a856871028f4c97435ed7215fe3b14a9b9851cc3943c689c26d59bee9",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:23",
+            "root:4753d15a856871028f4c97435ed7215f",
+            "root_b:e3b14a9b9851cc3943c689c26d59bee9",
+            "prev:9a354918964d8f752a1e754e2a285ffc",
+            "prev_b:1b5ef10962c0f4115a9e24cbc5acc7a4"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "31b744173cf8fa7de294341ed0c7e848a41d906856fd8a385046c303c08303fc",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 24,
+      "n_events": 1681,
+      "prev_root_hex": "4753d15a856871028f4c97435ed7215fe3b14a9b9851cc3943c689c26d59bee9",
+      "root_hex": "458b36a775ec39ab990bd15bcebd31b81931ec18bcd0b29311dbd7e777bb954b",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:24",
+            "root:458b36a775ec39ab990bd15bcebd31b8",
+            "root_b:1931ec18bcd0b29311dbd7e777bb954b",
+            "prev:4753d15a856871028f4c97435ed7215f",
+            "prev_b:e3b14a9b9851cc3943c689c26d59bee9"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "684bb79067e319750ace69bbd7020d9062c22878ecbff99472886174a5067717",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 25,
+      "n_events": 1681,
+      "prev_root_hex": "458b36a775ec39ab990bd15bcebd31b81931ec18bcd0b29311dbd7e777bb954b",
+      "root_hex": "a5143ef590fba0c9bae02c672082a6ceda93fba6c389e1fa7a0fccc449c2d14b",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:25",
+            "root:a5143ef590fba0c9bae02c672082a6ce",
+            "root_b:da93fba6c389e1fa7a0fccc449c2d14b",
+            "prev:458b36a775ec39ab990bd15bcebd31b8",
+            "prev_b:1931ec18bcd0b29311dbd7e777bb954b"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "0b6a928af630031e21fd73cd25333864d1ca203244f4cd767911909a95f3cd05",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 26,
+      "n_events": 1681,
+      "prev_root_hex": "a5143ef590fba0c9bae02c672082a6ceda93fba6c389e1fa7a0fccc449c2d14b",
+      "root_hex": "5a953746fae3f53ad461eb0d56487742bea573d661e7a8e928584d5eda823aeb",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:26",
+            "root:5a953746fae3f53ad461eb0d56487742",
+            "root_b:bea573d661e7a8e928584d5eda823aeb",
+            "prev:a5143ef590fba0c9bae02c672082a6ce",
+            "prev_b:da93fba6c389e1fa7a0fccc449c2d14b"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "3c25fbe0ec69655da71eeda07325716d2079bf83e86fd70b3124b314e8f1c5cf",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 27,
+      "n_events": 1681,
+      "prev_root_hex": "5a953746fae3f53ad461eb0d56487742bea573d661e7a8e928584d5eda823aeb",
+      "root_hex": "7376621b05a01e791694b27a265c7cd52937a2bc79c28b5637eab1d14b7cc449",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:27",
+            "root:7376621b05a01e791694b27a265c7cd5",
+            "root_b:2937a2bc79c28b5637eab1d14b7cc449",
+            "prev:5a953746fae3f53ad461eb0d56487742",
+            "prev_b:bea573d661e7a8e928584d5eda823aeb"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "eeea188bf2edca6cad876637b99f9ebbe30f2407ca0deef3fd5d783a4ca5d4e5",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 28,
+      "n_events": 1681,
+      "prev_root_hex": "7376621b05a01e791694b27a265c7cd52937a2bc79c28b5637eab1d14b7cc449",
+      "root_hex": "cc7a54d013c1fee2a5cb5527fb30c856467f7026a5e494ef41382bd4c7b3bca7",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:28",
+            "root:cc7a54d013c1fee2a5cb5527fb30c856",
+            "root_b:467f7026a5e494ef41382bd4c7b3bca7",
+            "prev:7376621b05a01e791694b27a265c7cd5",
+            "prev_b:2937a2bc79c28b5637eab1d14b7cc449"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "7914e5ed850fdd4977f77710de42a37f74d215708c029eb27d08e8c495f800cb",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    },
+    {
+      "batch_id": 29,
+      "n_events": 1681,
+      "prev_root_hex": "cc7a54d013c1fee2a5cb5527fb30c856467f7026a5e494ef41382bd4c7b3bca7",
+      "root_hex": "93885fb6ccb19fcf24bab252d4b327f394f6775f52fc80a47d30842111afe560",
+      "metadata_payload": {
+        "674": {
+          "msg": [
+            "DR-TEA:drtea-v1",
+            "batch:29",
+            "root:93885fb6ccb19fcf24bab252d4b327f3",
+            "root_b:94f6775f52fc80a47d30842111afe560",
+            "prev:cc7a54d013c1fee2a5cb5527fb30c856",
+            "prev_b:467f7026a5e494ef41382bd4c7b3bca7"
+          ]
+        }
+      },
+      "metadata_canonical_hash": "a2abb2f4e915bd36c0816dad6234b604e1b8c867e132df48484df67778802d5b",
+      "estimated_tx_size_bytes": 470,
+      "estimated_fee_lovelace": 176061,
+      "estimated_fee_ada": 0.176061,
+      "sample_proof_verified": true
+    }
+  ]
+}

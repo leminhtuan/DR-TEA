@@ -1,0 +1,5 @@
+baseline,estimated_monthly_cost_usd,public_verifiable,omission_detectable,tef_estimate,model_only
+B4 OTS-style,150.0,True,No/Partial,~86400 (next daily anchor),True
+B5 CometBFT,200.0,Partial (consortium members only),Partial,0.35s,True
+B6 Ethereum L1,143.9679,True,Partial,~15s (next block),True
+B7 EVM L2/Algorand,0.8923/0.0134,True,Partial,2-5s (L2 batch) / 4s (Algorand block),True

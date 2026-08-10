@@ -1,0 +1,46 @@
+{
+  "B1": {
+    "baseline": "B1 Centralized log",
+    "n_events": 1000,
+    "write_latency_mean_us": 0.0331,
+    "write_latency_p95_us": 0.0421,
+    "verify_latency_mean_us": 0.0575,
+    "storage_bytes_per_event": 256,
+    "anchoring_cost_usd": 0.0,
+    "monthly_cost_usd": 0.0,
+    "tef_s": 0.0,
+    "public_verifiable": false,
+    "omission_detectable": false,
+    "mode": "benchmark"
+  },
+  "B2": {
+    "baseline": "B2 Per-event pilot",
+    "n_sample": 100,
+    "fee_per_event_ada": 0.168581,
+    "fee_per_event_usd": 0.074176,
+    "confirm_delay_mean_s": 105.21,
+    "confirm_delay_p95_s": 192.15,
+    "monthly_cost_ada": 25287.15,
+    "monthly_cost_usd": 11126.35,
+    "tef_mean_s": 105.21,
+    "public_verifiable": true,
+    "omission_detectable": true,
+    "mode": "live-params+dry-run"
+  },
+  "B3": {
+    "baseline": "B3 DR-TEA batched",
+    "batch_size": 1681,
+    "fee_per_batch_ada": 0.172189,
+    "fee_per_batch_usd": 0.075763,
+    "cost_per_1k_usd": 0.04507,
+    "monthly_cost_ada": 15.3649,
+    "monthly_cost_usd": 6.7605,
+    "verify_latency_us": 6.249,
+    "confirm_delay_mean_s": 100.98,
+    "confirm_delay_p95_s": 155.95,
+    "tef_mean_s": 100.98,
+    "public_verifiable": true,
+    "omission_detectable": true,
+    "mode": "live-params+dry-run"
+  }
+}

@@ -1,0 +1,25 @@
+# DR-TEA — E7 Limited Cardano Mainnet Pilot Configuration
+# Preflight & Execution Parameters (IEEE Access DR-TEA Specification)
+---
+experiment: E7
+mode: mainnet-live
+network: cardano-mainnet
+n_batches: 30
+batch_size: 1681
+seed: 42
+
+# Fee & Budget Caps (Safety Guardrails)
+fee_cap_ada_per_batch: 0.30
+total_budget_cap_ada: 15.0
+
+# Confirmation & Reorganization Policy
+inclusion_confirmations: 1
+final_confirmation_blocks: 15
+reorg_monitor_blocks: 60
+submission_timeout_s: 1800
+
+# Metadata & Privacy Policy
+# CIP-20 general message metadata label standard (674)
+metadata_label: 674
+fallback_policy: pause_and_log
+privacy_scan: strict

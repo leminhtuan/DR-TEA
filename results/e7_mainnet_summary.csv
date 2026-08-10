@@ -1,0 +1,2 @@
+n_batches,batch_size,mode,mean_fee_ada,median_confirm_s,p95_confirm_s,n_reorgs,fallback_triggered,total_fee_ada,total_cost_usd,mean_cost_per_batch_usd
+50,1681,dry-run,0.172344,85.5,165.81,0,0,8.6172,3.7916,0.075831

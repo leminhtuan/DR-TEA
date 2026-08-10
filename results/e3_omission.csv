@@ -1,0 +1,6 @@
+configuration,omission_rate_pct,odr_mean,odr_ci_lo,odr_ci_hi,fpr_mean,fpr_ci_lo,fpr_ci_hi,precision_mean,recall_mean
+No receipts,5%,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Receipts only,5%,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Receipts + monitor,1%,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0
+Receipts + monitor,5%,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0
+Receipts + monitor,10%,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0

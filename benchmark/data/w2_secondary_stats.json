@@ -1,0 +1,27 @@
+{
+  "seed": 43,
+  "n_university_events": 30000,
+  "n_utility_events": 20000,
+  "total_events": 50000,
+  "schema_changes": {
+    "added_fields": [
+      "domain_ext.semester",
+      "domain_ext.faculty_code",
+      "domain_ext.university_id",
+      "domain_ext.meter_id",
+      "domain_ext.bill_period",
+      "domain_ext.utility_type"
+    ],
+    "core_fields_unchanged": [
+      "inv_id",
+      "payer_ref",
+      "amount",
+      "currency",
+      "status",
+      "channel",
+      "ts"
+    ],
+    "n_added_fields_university": 3,
+    "n_added_fields_utility": 3
+  }
+}

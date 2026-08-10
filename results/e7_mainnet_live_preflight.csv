@@ -1,0 +1,9 @@
+check_id,check_name,status,details
+1,network_config,pass,Config valid: network=cardano-mainnet n_batches=30 batch_size=1681 seed=42
+2,wallet_env,pass,Live signing wallet and explicit pilot approval configured in environment
+3,budget_check,pass,Estimated total fee 5.281390 ADA <= 15.000000 ADA budget cap (35.21% utilization)
+4,fee_cap_check,pass,Estimated fee 0.176046 ADA/batch <= 0.300000 ADA fee cap (0.123954 ADA headroom)
+5,privacy_scan,pass,Strict privacy scan passed: 30/30 batches contain zero PII and zero raw payment fields
+6,manifest_integrity,pass,"30 chained Merkle roots verified (Eq. 6), genesis prev_root=0^32, inclusion proofs pass"
+7,metadata_size_check,pass,All CIP-20 strings <= 64 bytes (max 39 bytes); estimated tx size 469 bytes << 16384 bytes limit
+8,explorer_api_reachable,pass,"Public explorer check completed (protocol parameter fallback active: a=44, b=155381)"

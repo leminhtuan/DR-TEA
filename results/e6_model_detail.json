@@ -1,0 +1,58 @@
+{
+  "B4": {
+    "baseline": "B4 OTS-style calendar",
+    "model_type": "model-only",
+    "anchoring_interval": "1 per day",
+    "cost_model_assumptions": "BTC fee $5 mean, $3 std",
+    "monthly_cost_usd_estimate": 150.0,
+    "cost_per_event_usd_estimate": 0.001,
+    "verify_latency_us": "N/A (Bitcoin Merkle proof ~400ms)",
+    "tef_s_estimate": "~86400 (next daily anchor)",
+    "public_verifiable": true,
+    "omission_detectable": "No/Partial",
+    "confirmation_threshold": "~6 blocks (~60 min)",
+    "caveat": "No per-event proof; only batch-level calendar attestation"
+  },
+  "B5": {
+    "baseline": "B5 CometBFT notary",
+    "model_type": "model-only",
+    "cluster_size": "4 nodes",
+    "consensus_latency_mean_ms": 350,
+    "consensus_latency_p95_ms": 600,
+    "monthly_infra_cost_usd": 200.0,
+    "cost_per_1k_events_usd": 1.3333,
+    "tef_s_estimate": 0.35,
+    "public_verifiable": "Partial (consortium members only)",
+    "omission_detectable": "Partial",
+    "caveat": "No public chain; verifiability limited to consortium members"
+  },
+  "B6": {
+    "baseline": "B6 Ethereum L1",
+    "model_type": "model-only",
+    "gas_per_tx": 21512,
+    "gas_price_gwei": 30.0,
+    "eth_price_usd": 2500.0,
+    "fee_per_anchor_eth": 0.00064536,
+    "fee_per_anchor_usd": 1.6134,
+    "monthly_cost_usd_estimate": 143.9679,
+    "cost_per_1k_events_usd": 0.959786,
+    "tef_s_estimate": "~15s (next block)",
+    "public_verifiable": true,
+    "omission_detectable": "Partial",
+    "caveat": "High gas price volatility; L2 would reduce cost ~100x"
+  },
+  "B7": {
+    "baseline": "B7 EVM L2 / Algorand",
+    "model_type": "model-only",
+    "evm_l2_fee_per_anchor_usd": 0.01,
+    "evm_l2_monthly_cost_usd": 0.8923,
+    "evm_l2_cost_per_1k_usd": 0.005949,
+    "algorand_fee_per_anchor_usd": 0.00015,
+    "algorand_monthly_cost_usd": 0.0134,
+    "algorand_cost_per_1k_usd": 8.9e-05,
+    "public_verifiable": true,
+    "omission_detectable": "Partial",
+    "tef_s_estimate": "2-5s (L2 batch) / 4s (Algorand block)",
+    "caveat": "Model-based; not deployed in a live pilot"
+  }
+}

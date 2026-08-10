@@ -1,0 +1,7 @@
+property,trials,result,elapsed_s
+P1 Root determinism,1000,Pass,0.54
+P2 Valid proof verifies,1000,Pass,0.57
+P3 Tamper detection,1000,Pass,0.51
+P4 Chain integrity,1000,Pass,0.52
+P5 Idempotency,1000,Pass,0.01
+P6 Fault isolation,1000,Pass,0.01

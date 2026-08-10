@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "n_base_events": 100000,
+  "n_duplicates_injected": 3000,
+  "n_late_callbacks": 2000,
+  "total_events": 105000,
+  "status_counts": {
+    "PAID": 74060,
+    "PENDING": 10158,
+    "REFUNDED": 5177,
+    "PARTIAL": 6293,
+    "FAILED": 4184,
+    "LATE": 5128
+  },
+  "channel_counts": {
+    "BANK_TRANSFER": 41917,
+    "MOMO_WALLET": 26182,
+    "ZALO_PAY": 21232,
+    "CARD": 10303,
+    "CASH_DEPOSIT": 5366
+  }
+}

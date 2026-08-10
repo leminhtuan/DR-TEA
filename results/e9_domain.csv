@@ -1,0 +1,3 @@
+domain,n_events,n_accepted,n_rejected_schema,n_rejected_dupe,n_batches,batch_size,ingest_time_s,batch_time_s,throughput_eps,verify_time_us,fir_syn
+K-12,105000,100000,0,5000,60,1681,2.7557,0.0587,36288.74,970.2079,0.0
+University/Utility,50000,50000,0,0,30,1681,1.5198,0.0288,32898.39,971.6104,0.0

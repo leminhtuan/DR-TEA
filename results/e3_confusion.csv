@@ -1,0 +1,6 @@
+configuration,omission_rate_pct,TP,FP,FN,TN
+No receipts,5%,0,0,1520,28480
+Receipts only,5%,0,0,1418,28582
+Receipts + monitor,1%,319,0,0,29681
+Receipts + monitor,5%,1522,0,0,28478
+Receipts + monitor,10%,2967,0,0,27033

@@ -1,0 +1,58 @@
+{
+  "W1": {
+    "domain": "K-12",
+    "n_events": 105000,
+    "n_accepted": 100000,
+    "n_rejected_schema": 0,
+    "n_rejected_dupe": 5000,
+    "n_batches": 60,
+    "batch_size": 1681,
+    "ingest_time_s": 2.7557,
+    "batch_time_s": 0.0587,
+    "throughput_eps": 36288.74,
+    "verify_time_us": 970.2079,
+    "fir_syn": 0.0
+  },
+  "W2": {
+    "domain": "University/Utility",
+    "n_events": 50000,
+    "n_accepted": 50000,
+    "n_rejected_schema": 0,
+    "n_rejected_dupe": 0,
+    "n_batches": 30,
+    "batch_size": 1681,
+    "ingest_time_s": 1.5198,
+    "batch_time_s": 0.0288,
+    "throughput_eps": 32898.39,
+    "verify_time_us": 971.6104,
+    "fir_syn": 0.0
+  },
+  "comparison": {
+    "domain": "COMPARISON",
+    "schema_changes_vs_baseline": 6,
+    "throughput_ratio_w2_vs_w1": 0.9066,
+    "verify_overhead_us": 1.4025,
+    "core_pipeline_unchanged": true
+  },
+  "w2_schema_changes": {
+    "added_fields": [
+      "domain_ext.semester",
+      "domain_ext.faculty_code",
+      "domain_ext.university_id",
+      "domain_ext.meter_id",
+      "domain_ext.bill_period",
+      "domain_ext.utility_type"
+    ],
+    "core_fields_unchanged": [
+      "inv_id",
+      "payer_ref",
+      "amount",
+      "currency",
+      "status",
+      "channel",
+      "ts"
+    ],
+    "n_added_fields_university": 3,
+    "n_added_fields_utility": 3
+  }
+}
